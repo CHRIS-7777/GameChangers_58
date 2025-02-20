@@ -9,8 +9,6 @@ void handleNewMessages(int numNewMessages) {
       bot.sendMessage(chat_id, "Unauthorized user", "");
       continue;
     }
-    
-    // Print the received message
     String text = bot.messages[i].text;
     Serial.println(text);
     
