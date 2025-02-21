@@ -35,7 +35,7 @@ void handleNewMessages(int numNewMessages) {
        bot.sendMessage(CHAT_ID, "Motion Alert - Enabled", "");
        Serial.println("Enable the Motion alert");
     }
-    
+    //for disabling the motion sensor
     if (text == "/DisableMotionAlert") {
        motionDetectEnable = false;
        
